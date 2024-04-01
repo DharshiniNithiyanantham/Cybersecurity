@@ -36,6 +36,9 @@ hackthysm-social calls
 wikileads
 state hackers
 BYOD-bring your own device(demand)
-CIA-confidentiality integrity availibility
-Aurthentication
-
+CIA-confidentiality . integrity(orginality) . availibility
+Aurthentication-3 factors(1.some thing you know,2.some thing you have,3.some thing you are)
+Access control(with permission)-UAC 
+SSL-secure software layer(integrity)
+Encryption-convertion of normal text into cyber text
+firewall
