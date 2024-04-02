@@ -44,6 +44,20 @@ Encryption-convertion of normal text into cyber text
 firewall
 
 
-Environmental path
 format executable in window
 .exp,.batch,.sh(windows)
+...(edit the envirnomental variable)..
+zand server
+----(open edit the envirnomental variable--click environmental variable-----click path--click edit--click new--C:\Window\System32\)
+same subnet +same ip address=LAN.
+jumping into another subnet and ip or more than one subne=WAN
+*(ping 172.1.44.44-c 4)     (-c=counts) for linux 
+*(ping --help)  
+-c=switch 
+-n=no.of count 
+same n/w devices-cross over 
+diff n/w devices-straight over 
+two device connected by router
+PT-Packet tracer
+MAC address-permanent address for device (media access control address) (trace)
+ping users ICMP protocol
