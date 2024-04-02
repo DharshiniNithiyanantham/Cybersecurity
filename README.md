@@ -42,3 +42,8 @@ Access control(with permission)-UAC
 SSL-secure software layer(integrity)
 Encryption-convertion of normal text into cyber text
 firewall
+
+
+Environmental path
+format executable in window
+.exp,.batch,.sh(windows)
