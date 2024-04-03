@@ -61,3 +61,6 @@ two device connected by router
 PT-Packet tracer
 MAC address-permanent address for device (media access control address) (trace)
 ping users ICMP protocol
+
+
+DHCP--Dynamic Host Configuration Protocol
