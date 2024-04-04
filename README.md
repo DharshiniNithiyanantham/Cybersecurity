@@ -64,3 +64,6 @@ ping users ICMP protocol
 
 
 DHCP--Dynamic Host Configuration Protocol
+power shell                         command prompt
+linux-ls (listing)                           window-dir
+linux-cd(change directory)(cd.\desktop\)back-cd..    front-cd...
