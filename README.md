@@ -69,4 +69,16 @@ linux-ls (listing)                           window-dir
 linux-cd(change directory)(cd.\desktop\)back-cd..    front-cd...
 
 et0-ethernet 0
+VPN-encrypt B/W CLIENT and SERVER 
 
+Encryption-clear text ->ciper text
+Decryption-ciper text->clear text
+
+Tpyes of encryption
+-symmetric encrp-single key
+-Asymmentric encrp-public key\private key
+
+wireshark is a packet analyiser
+3 way handshake***--syn,syn-ack,ack
+
+diff b/w 
