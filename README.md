@@ -67,3 +67,6 @@ DHCP--Dynamic Host Configuration Protocol
 power shell                         command prompt
 linux-ls (listing)                           window-dir
 linux-cd(change directory)(cd.\desktop\)back-cd..    front-cd...
+
+et0-ethernet 0
+
