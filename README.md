@@ -83,3 +83,7 @@ wireshark is a packet analyiser
 
 click any one-right click-follow-tcl
 diff b/w 
+
+
+Signature=hash 
+virustotal.com----checking the file intergity
