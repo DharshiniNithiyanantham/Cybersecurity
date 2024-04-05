@@ -81,9 +81,25 @@ Tpyes of encryption
 wireshark is a packet analyiser
 3 way handshake***--syn,syn-ack,ack
 
+http-
+https-TLS way handshake,asy,
+
 click any one-right click-follow-tcl
 diff b/w 
 
 
 Signature=hash 
 virustotal.com----checking the file intergity
+
+Client Request ---> server response --> DB
+HTTP methods                    RESPONSE (code) methods
+GET                                 1xx- Informational(Protocol changes in inside(informations))
+POST                                2xx- OK(Success)
+PUT                                  3xx- Redirect 
+OPTIONS                              4xx - Client side Error
+DELETE                               5xx-Server side Error 
+
+the testing has 3 types of environment :
+Production Environment-live website or web application--->(website down problem is there)(risk,highly costly)
+Staging Environment-Changes checks or tested -->Actual copy of production environment
+QA environment -test enviornment 
