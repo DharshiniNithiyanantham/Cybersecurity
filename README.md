@@ -102,4 +102,35 @@ DELETE                               5xx-Server side Error
 the testing has 3 types of environment :
 Production Environment-live website or web application--->(website down problem is there)(risk,highly costly)
 Staging Environment-Changes checks or tested -->Actual copy of production environment
-QA environment -test enviornment 
+QA environment -test enviornment
+
+Burpsuite-b/w client and server -->**proxy**---act as a middle server --proxy can be both good and bad
+
+Tor-Bitcoin 1b-$67000
+Darkweb--b\w clent and server--=>   (Client-->Proxy1-->proxy 2-->Proxy3-->proxy 4-->Proxy5-->proxy 6-->SERVER) **located in 6 diff ways**
+
+**burp suite**
+open burp suite->proxy_->open browser(user agent)
+
+Foxyproxy--open link-right side up corner--puzzle Symbol--poxies--enter name--enter ip--save--
+
+brupsuite--8080
+
+kali command
+*sudo nmcli networking on
+sudo service NetworkManager start(sto,restart)*
+
+install after 
+file--cat /etc/apt/sources.list---to open file 
+nano - to read the file
+
+burpsuite ku traffic ah send pannanum ah  on or we can off
+
+COMMAND
+**sudo service NetworkManager start
+sudo service apache2 start
+sudo service apache2 status
+q
+**
+
+
