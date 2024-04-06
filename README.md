@@ -211,3 +211,13 @@ external-- they give only give domain to find vul
 sudo apt install example
 
 CIA
+SQL injection
+authentication authorzation-theory
+access control/authorization
+
+**pwd/home/kali
+cat /etc/passwd
+burpsuite
+/usr/bin/burpsuite
+/bin/burpsuite
+
