@@ -134,3 +134,29 @@ q
 **
 
 
+Vulnerability Assessment(VA)**--process of identifying--find out potential weakness actually affect CIA--PRIORTIZE(if u find bug)--
+it invovles a systematic review of potential weakness
+
+
+RISK ANAYLSIS:
+VULNERABILITY ASSESSMENT PROCESSS
+Assest discovery(we can sacn computer)---Vulnerability scanning  (scanning ALL OS/HOST EG:IOT devices)---Vulnerability Assessment(undering the impact of theards)-----Vulnerability remediation(
+
+NATIONAL Vulnerability DATABASE-NVD
+CVSS -common Vulnerability Scoring system 
+CVSS SOCORE 
+LOW-0.1-3.9
+Medium-4.0-6.9
+High-7.0-8.9
+Critical-9.0-10.0
+
+WINDOW USER-Admin
+
+Vulnerability Scanner
+TYPES:
+DATABASE vul.scanner
+Network vul.scanner
+Web Application vul.scanner
+Host-Based vul.scanner
+API-based vul.scanner---Api(Application programming interface)(general transfering front end to backend)
+Cloud based vul.scanner
