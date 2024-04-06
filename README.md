@@ -181,7 +181,30 @@ Drawbacks
 --false negative(there is no vulnerability bt it shown as  no vul)
 --limited scopes 
 
+SAST tool-Static application security testing**Res(python)
 
 developing vulerability tool(there should be no true vul)
 
+**Vulnerability Assessment method
+--vulerability scanning
+
+**PENETRATION TESTING(imp interview question)
+5 phases of hacking
+--INFORMATION gathering(eg:host,router,servers,protocols,technologies(python,html,cms-conent management system(coding illa ma --web site-- create pannalam)
+--scanning(indetail info eg:version-apache,)
+--gaining access(find vul and exploit it)
+--Maintaining access or persistance(using backdoor)
+--clearing tracks
+
+NDA(MENTIONS THE ATTACKS-SHOULD NOT ATTACK DOS ATTACKS)(PENETRAION TECHNIQUES)
+
+types of peneration test
+--application
+--network
+--physical
+--IOTMedic
+
+**Internal and external penetration testing 
+internal -- there will be limitations in vul
+external-- they give only give domain to find vul
 
