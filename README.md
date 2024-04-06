@@ -216,8 +216,12 @@ authentication authorzation-theory
 access control/authorization
 
 **pwd/home/kali
-cat /etc/passwd
+cat /etc/passwd---all linux  have this file 
 burpsuite
 /usr/bin/burpsuite
 /bin/burpsuite
+win.ini---all window have this file
+path traversal
+OS command injection
+
 
