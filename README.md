@@ -126,7 +126,7 @@ nano - to read the file
 
 burpsuite ku traffic ah send pannanum ah  on or we can off
 
-COMMAND
+**COMMAND
 **sudo service NetworkManager start
 sudo service apache2 start
 sudo service apache2 status
@@ -139,12 +139,12 @@ it invovles a systematic review of potential weakness
 
 
 RISK ANAYLSIS:
-VULNERABILITY ASSESSMENT PROCESSS
+**VULNERABILITY ASSESSMENT PROCESSS
 Assest discovery(we can sacn computer)---Vulnerability scanning  (scanning ALL OS/HOST EG:IOT devices)---Vulnerability Assessment(undering the impact of theards)-----Vulnerability remediation(
 
-NATIONAL Vulnerability DATABASE-NVD
-CVSS -common Vulnerability Scoring system 
-CVSS SOCORE 
+**NATIONAL Vulnerability DATABASE-NVD
+**CVSS -common Vulnerability Scoring system 
+***CVSS SOCORE 
 LOW-0.1-3.9
 Medium-4.0-6.9
 High-7.0-8.9
@@ -152,11 +152,36 @@ Critical-9.0-10.0
 
 WINDOW USER-Admin
 
-Vulnerability Scanner
+**Vulnerability Scanner
 TYPES:
 DATABASE vul.scanner
 Network vul.scanner
 Web Application vul.scanner
 Host-Based vul.scanner
 API-based vul.scanner---Api(Application programming interface)(general transfering front end to backend)
-Cloud based vul.scanner
+Cloud based vul.scanner(AWS,GOOGLE CLOUD,IBM)
+
+
+**very important cyber security tearms:
+POLICY -- rules
+PRODUCDURE--step by step following for policy 
+STANDARD -- regualtions are given by government (hippa)(GDPR-general data production regulations)(segregate by a department)(
+REGULATIONS--
+
+BENIFITS
+--Identify security
+--priorities remediation
+--supports
+--improve over all security recommadation
+--povides actionable  recommadation
+
+Drawbacks
+--resource intensive
+--false positive(there is no vulnerability bt it shown as vul)
+--false negative(there is no vulnerability bt it shown as  no vul)
+--limited scopes 
+
+
+developing vulerability tool(there should be no true vul)
+
+
