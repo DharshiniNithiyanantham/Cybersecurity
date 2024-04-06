@@ -208,3 +208,6 @@ types of peneration test
 internal -- there will be limitations in vul
 external-- they give only give domain to find vul
 
+sudo apt install example
+
+CIA
