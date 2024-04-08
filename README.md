@@ -224,4 +224,19 @@ win.ini---all window have this file
 path traversal
 OS command injection
 
+path traversal 
+
+cybercef-use full web site--should not use in kali
+path traversal-file inclusion
+
+cat /etc/passwd | grap/bin/bash(or) /bin/zsh
+temC
+
+mkdlr MKCE && cd MKCE 
+
+web shell-browser
+Bind shell - process/service/port combine 
+Reverse shell- user intraction
+
+
 
