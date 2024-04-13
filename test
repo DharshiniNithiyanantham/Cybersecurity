@@ -46,6 +46,60 @@ step by step process---enumuration
 techniques of enumuration
 threat actors---illigal activities,bad actors,adversory
 types of threat actors
+phising 
+######incident(something that affect CIA) response team -----NIST cyber security frame work ---steps for incident response team---incident response plan
+->Identify(assesst identify)
+->protect
+->detect
+->respond
+->recover
+4 steps NIST frame work
+preparation phase
+detection and analysis
+containment eradication and recovery
+post incident activity
+core skill required in cyber security
+access the risk--likly hood and impact
+network
+n/w security
+n/w segmentation
+ids and ips
+intrusion--unauthorzied access
+IDS-similar to antivirus (only prevent (taken action by ourself)
+VPN-it creats a lan virutaly (privately)
+proxy
+wax-web application
+WPA 2 is commanly used
+wired ,wireless
+firefall-filter the traffic or block(transport layer)
+types of fire wall service
+statefull---fairewall knows about packet(communicating b/w client and server)
+stateless--it does not know about a package(not communication)
+packet filtering
+Email security
+anti-malware---microsoft defender
+antivirus--behaviour change
+network segmentation
+access control
+application security
+HIDS-host based intrustion detection system(
+nids--n/w based intrusion detection system(filtering entire n/w)
+types of mobile device management---MDM(all company have MDM)
+end point prodection--antivirus(host)(device)
+CASB
+LOSS ARE STOLEN DEVICE PROJECT
+zero trust n/w access
+OSI MODEL
+cryptography
+***asymentric encryption****sysmentric encryption
+***Crytography attacks
+security control
+->physical
+->administative(policy ,procedure)
+->logical or technical(paaswrd,user name,otp)
+compliance---to flow a rule
+need of compliance 
+information security compliance 
 
 
 
