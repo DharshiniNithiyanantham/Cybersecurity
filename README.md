@@ -80,7 +80,7 @@ Tpyes of encryption
 
 wireshark is a packet analyiser
 3 way handshake***--syn,syn-ack,ack
-
+wireshark is mostly used in the checking process
 http-
 https-TLS way handshake,asy,
 
@@ -99,22 +99,72 @@ PUT                                  3xx- Redirect
 OPTIONS                              4xx - Client side Error
 DELETE                               5xx-Server side Error 
 
+  testing types
+  *functional testing
+  *non-functional testing
+  
+  security testing
+  
+  *production environment - live websites/web app
+  *staging environment p- actual copy of production
+  *QA environment - test build
+
+  brup suite:
+  Client --->Burp Proxy ----> Server
+    good for web developers and testers
+
+  user agent -> browser
+    
+    foxyproxy -extension for proxy browser
+
+    Dark web:
+client ---> Proxy1 ----> Proxy2 ----> proxy3 -----> proxy4 -----> proxy5 -----> proxy6 ----> Server
+
+command for kali
+
+sudo nmcli networking on
+asks password : kali
+sudo service NetworkManager start
+both commands are used to check the internet connection
+sudo - super user
+
+ctrl + Shift + C --> for copy
+ctrl + Shift + v --> for paste
+
+sudo nano /etc/apt/sources.list
+cat /etc/apt/sources.list
+ add s to the http -->https
+ctrl + O and enter to save the file
+ctrl + X to Exit
+
+URL and URI :
+web protocol  --> http/https
+TLD
+Domain --> example.com
+sub domain -->maps.example.com , mail.example.com
+
+ls -l /var/www/html/  --> for finding the rrot element
+linux basic path --> /var/www/html
+windows --> C:\inetpub\wwwroot
+
+WAP --> web application firewall + rate limiting
+
 the testing has 3 types of environment :
 Production Environment-live website or web application--->(website down problem is there)(risk,highly costly)
 Staging Environment-Changes checks or tested -->Actual copy of production environment
 QA environment -test enviornment
 
-Burpsuite-b/w client and server -->**proxy**---act as a middle server --proxy can be both good and bad
+Burpsuite-act b/w client and server -->**proxy**---act as a middle server --proxy can be both good and bad
 
 Tor-Bitcoin 1b-$67000
-Darkweb--b\w clent and server--=>   (Client-->Proxy1-->proxy 2-->Proxy3-->proxy 4-->Proxy5-->proxy 6-->SERVER) **located in 6 diff ways**
+Darkweb--act b\w clent and server--=>   (Client-->Proxy1-->proxy 2-->Proxy3-->proxy 4-->Proxy5-->proxy 6-->SERVER) **located in 6 diff ways**
 
 **burp suite**
 open burp suite->proxy_->open browser(user agent)
 
 Foxyproxy--open link-right side up corner--puzzle Symbol--poxies--enter name--enter ip--save--
 
-brupsuite--8080
+brupsuite--port 8080
 
 kali command
 *sudo nmcli networking on
@@ -132,11 +182,68 @@ sudo service apache2 start
 sudo service apache2 status
 q
 **
-
+Cyber Security Terms(most important terms)
+1. Policy(Set of rules)
+2. Procedure(Step to follow the rules)
+3. Standard(a Set of procedure)
+4. Regulation(it is only given by Government)
+   
 
 Vulnerability Assessment(VA)**--process of identifying--find out potential weakness actually affect CIA--PRIORTIZE(if u find bug)--
 it invovles a systematic review of potential weakness
 
+VA process
+Asset discovery---------->Vulnerability scanning----------->Vulnerability assessment ------------->Vulnerability remediation
+Vulnerability Metrics (Vulnerability scores)
+   National vulnerability databases - this websiter will tell us how to gives the rating or score(CVSS score)
+   CVSS-Common Vulnerability Scoring System
+
+Vulnerability Scanner(VS)
+Types
+1. Automated VS types
+  1. Database VS
+  2. Network VS
+  3. Web Application VS
+  4. Host-based VS
+  5. API VS
+  6. Cloud based VS
+2. Manual VS
+
+
+Vulnerability Assessment methods
+1.VS
+2.Penetration Testing
+3.Risk Assessment 
+4.Code reviews
+5.Configuration Management
+6.Patch management
+7.Security assessment
+
+
+Five phases of Hacking
+1.Information gathering
+2.Scanning(scan the information we gathered)
+3.Gaining Access
+4.Maintaining Access(persistence)
+5.Clearing Tracks
+6.Reporting
+
+Penetration Testing(an authorized attack on a device to identify security vulnerabilities that could be hacked)
+process
+Information Gathering------>Threat modeling------>Vulnerability analysis------->Exploitation ------>Post exploitation ----->Reporting
+Types
+1.Internal PT(there are some scope and rules to be followed)
+2.External PT(they only give us the information and said to identify the vulnerability)
+
+
+SAST- without deploying a code(
+DAST- we use code (burpsuite)
+
+OWASP Vulnerability
+1.Sql Injection
+2.Authentication vulnerability
+3.Path Traversal/Directory Traversal
+4.OS Command Injection
 
 RISK ANAYLSIS:
 **VULNERABILITY ASSESSMENT PROCESSS
@@ -188,6 +295,26 @@ developing vulerability tool(there should be no true vul)
 **Vulnerability Assessment method
 --vulerability scanning
 
+To convert the url to base 64 ---> cyber chef (website) use base 64 option
+never use cyber chef to kali linux (uses more memory)
+
+book.hacktricks.xyz ----> bible for hackers
+hacking tricks for hackers
+
+penetration testing > vulnerability testing
+
+cat /etc/passwd | grep /bin/bash ---> checking the users in system
+
+mkdir MKCE && cd  MKCE && touch test -----> to create directory in kali
+ll ---> to check the directory
+
+concepts to remember (shells) :
+web shell ----> browser
+bind shell ----> process/service/port combine
+reverse shell ----> user interaction
+
+revshell.com ---->access the system by clicking the link provided in the website
+
 **PENETRATION TESTING(imp interview question)
 5 phases of hacking
 --INFORMATION gathering(eg:host,router,servers,protocols,technologies(python,html,cms-conent management system(coding illa ma --web site-- create pannalam)
@@ -208,7 +335,93 @@ types of peneration test
 internal -- there will be limitations in vul
 external-- they give only give domain to find vul
 
+angry ip scanner ----> scans the ip address
+
+pimeyes ----> upload photos to find the person social accounts.
+
+google advanced search -----> to search about the particular things
+
+inurl: --->shows results about the login page
+
+site:mkce.ac.in  ----> shows the particular websites
+
+pip
 sudo apt install example
+
+To install vpn
+download tyhackme file
+run command:
+
+cd Desktop
+sudo openvpn tryhackme.ovpn
+takes some time
+ -----------
+or
+download academy.zip file
+download and install splunk enterprise free version
+ip link set dev ens33 up
+dhclient -v ens33
+ip a
+
+SIEM(security inforamtion and event management) tool  ----> for defense
+splunk forwarder --->to connent with the servers (complex task)
+not able to copy,paste
+
+service ssh status ----> to check the active status of ssh(in academy linux)
+ssh root@192.168.181.129 ---> in commmand prompt
+then -->enter passord --> tcm
+uname -a
+whoami
+useradd -m splunkfwd
+groupadd splunk
+then go to splunk forwarder install for linux:
+
+export SPLUNK_HOME="/opt/splunkforwarder"
+mkdir $SPLUNK_HOME
+
+go to ---> splunk forwarder download(website) :
+to  check the version of the splunk in academy linux using ---> uname -a
+to download ---> copy the 64-bit version and paste it in command prompt(academy)
+
+dpkg -i splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb --->change based on given address
+chown -R splunkfwd:splunkfwd $SPLUNK_HOME
+$SPLUNK_HOME/bin/splunk start --accept-license
+cd /opt/splunkforwarder/bin/
+it shows --->/opt/splunkforwarder/bin# ---> ./splunk status
+./splunk add forward-server 172.1.42.46(:9997) --->default port
+./splunk add forward-server 172.1.42.46:9997
+enter previous asked username and password
+ping ip address(172.1.42.46) ---> for academy running
+if not installed properly:
+./splunk add forward-server 172.1.42.46:9997
+./splunk list forward-server
+if inactive :
+./splunk remove forward-server
+./splunk restart
+for installing splunk
+check the splunk enterprise --->academy with data graphs---> enterprise is running
+go to windows defender firewall ---> inbound --> new rule --->port --->tcp ---> 9997 ---> finish
+go to windows defender firewall ---> inbound --> new rule --->port --->udp ---> 9997 ---> finish
+
+go to kali ---> terminal ---> sudo netdiscover (with ip address and subnet mask ex--> 192.168.181.254/16)
+  create or go to any directory --->cd mkce
+  create file within it ----> nano ipaddress.txt
+  save the ip address in the file
+  to open the file ----> cat ipadddress.txt
+  it shows the resources within the file
+  to filter the ip address:
+cat ipadddress.txt | cut -d ' ' -f 2
+nmap &ip -p -v -min-rate=3000
+alternate for netdiscover:
+nmap -sn 192.168.181.128/24 ---> use this command
+nmap 192.168.181.128 -p1-65535 -min-rate=3000 -v -pn
+to check the port connected to the server :
+[
+sudo netdiscover -r 192.168.243.0/2
+export target=192.168.243.0
+nmap $target  -p1-65535 -min-rate=3000
+nmap $target  -p1-65535 -v -min-rate=3000 -oN open_ports.txt
+]
 
 CIA
 SQL injection
