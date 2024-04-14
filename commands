@@ -1,0 +1,67 @@
+where (to find the location of the application)
+which
+ls -listing
+cd -change dictionary
+cat -concatenate
+pwd - print working dictionary
+echo
+
+mkdir - to create directory
+
+ python -m http.server 80  -to  create the temporary server
+
+soc analyst (service operation center)
+
+echo "cyber"> security  - to create the folder in the system
+
+cat security -to show the folder
+
+NAT(network address translation) - to prevent from hacking
+
+ip a -for linux ip address
+
+translate public to private network (NAT)
+
+eth0 (ethernet 0)
+lo (network interface)
+wlan0 (wireless lan 0)
+tun0 (tunnel 0)
+
+proxy and vpn
+[
+vpn provides encryption between the client and server
+
+----------vpn---------
+client <------> server
+----------vpn---------
+encryption -clear text -> cipher text
+decryption -cipher text -> clear text
+
+symmetric encrypt - single key
+asymmetric encrypt - two keys( public key and private key) broke the single key to two keys(both public and private)
+]
+proxy does not encrypt the data
+
+wireshark -packet analyser tool(know about the data)
+
+Splunk commands
+
+ping ip address
+
+ssh root@192.168.181.129
+
+uname -a
+whoami
+useradd -m splunkfwd
+export SPLUNK_HOME="/opt/splunkforwarder"
+mkdir $SPLUNK_HOME
+ wget -O splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb "https://download.splunk.com/products/universalforwarder/releases/9.2.1/linux/splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb"
+dpkg -i splunkforwarder-9.2.1-78803f08aabb-linux-2.6-amd64.deb
+chown -R splunkfwd:splunkfwd $SPLUNK_HOME
+$SPLUNK_HOME/bin/splunk start --accept-license
+cd /opt/splunkforwarder/bin/
+/opt/splunkforwarder/bin# ./splunk status
+/opt/splunkforwarder/bin# ./splunk add forward-server 172.1.42.46:9997
+/opt/splunkforwarder/bin# ping 172.1.42.46
+/opt/splunkforwarder/bin# ./splunk add forward-server 172.1.42.46:9997
+:/opt/splunkforwarder/bin#  ./splunk remove forward-server
