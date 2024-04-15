@@ -453,3 +453,8 @@ Reverse shell- user intraction
 
 
 siem tool-security inform and event management tool
+
+Risk accpectance 
+aviodance
+metigation
+transfer
