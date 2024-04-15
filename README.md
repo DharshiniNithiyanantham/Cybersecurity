@@ -472,3 +472,4 @@ stack validation and re---intrutation attack nadaka pothu bac
 
 cloud artitecture
 on premisis -host server(within the organization)
+
