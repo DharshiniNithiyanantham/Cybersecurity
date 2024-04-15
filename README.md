@@ -454,7 +454,21 @@ Reverse shell- user intraction
 
 siem tool-security inform and event management tool
 
-Risk accpectance 
-aviodance
-metigation
-transfer
+Risk accpectance -outdated system ah updated panna mudiyathu so atha acccept pannikanum (for eg:linux,windows..) 
+risk aviodance-varathuku munnadi eh prevent pandrathu..eliminate or mitigate ohh pannama varathuku munnadi eh prevent pandrathu... fixing a aviod...completing removeing the risk.before doing a one thing there is a risk so we aviod completely
+risk mitigation--reducing a risk,antivirus protection,unused application removing,
+risk transfer--process of transfering risk to threed party,insurance,
+
+improtance of cloud security
+threat proctetion-unauthorized person la iruthu namba data va threat la iruthu protect pandrathu
+
+business continuty---system backup ah 
+
+encryption--normal plain txt converted into cipertxt(
+access management--
+cloud scalability--oranganization 
+network segmentation--oru n/w ah sub -net ah piruchutu athuku etha mari security control and sources ah provide pannum
+stack validation and re---intrutation attack nadaka pothu bac
+
+cloud artitecture
+on premisis -host server(within the organization)
