@@ -480,3 +480,21 @@ cloud security models
 -hybrid cloud security
 -community cloud security
 
+cloud security changes
+
+Regulatory Compliance in CS
+GRC-government risk and complaints
+GDPR--General Data Protection Regulation(EU)
+HIPAA--Health Insurance Portability and Accountability Act(US)
+PCIDSS-Payment Card Industry Data Security Standard
+ISO27001-ISMS policy
+ISO27002-
+CMM level--
+Capability Maturity Model 
+-initial,managed,defined,qualitively management ,optimizing
+
+future trends
+DAC-Discretionary access contriool
+RBAC-Role based access control
+MAC-Mandatory access control
+
