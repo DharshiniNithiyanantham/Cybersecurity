@@ -498,3 +498,17 @@ DAC-Discretionary access contriool
 RBAC-Role based access control
 MAC-Mandatory access control
 
+active directory
+
+vishing -- by voice 
+
+sop--standed operating procedure
+SLA-service level agreement
+
+MITRE ATT&CK--MITRE ATT&CK is an abbreviation for MITRE Adversarial Tactics, Techniques, and Common Knowledge.
+Tactics refer to the specific actions, plans, or procedures used to achieve short-term objectives within a larger strategy.
+Techniques---Techniques are the specific methods or procedures used to execute a tactic effectively.
+Common Knowledge--all adversarial (14 methods)
+
+cyberkill chain
+14 tactics
