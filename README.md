@@ -473,3 +473,10 @@ stack validation and re---intrutation attack nadaka pothu bac
 cloud artitecture
 on premisis -host server(within the organization)
 
+i/q
+cloud security models
+-public cloud sercurity
+-private cloud security
+-hybrid cloud security
+-community cloud security
+
