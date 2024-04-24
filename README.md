@@ -512,3 +512,9 @@ Common Knowledge--all adversarial (14 methods)
 
 cyberkill chain
 14 tactics
+
+7 phase of cyber kill chain
+
+online passwrd cracking -- Brupsuite/Hydra
+offline psd cracking-- John/Hashcat
+
